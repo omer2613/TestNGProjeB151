@@ -14,5 +14,6 @@ public class TC01_AramaKutusu {
         ReusableMethods.bekle(1);
         Page page = new Page();
         page.aramaKutusu.sendKeys("iphone", Keys.ENTER);
+        Driver.closeDriver();
 }
 }
